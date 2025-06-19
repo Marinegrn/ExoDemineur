@@ -32,10 +32,10 @@ Ce projet est une implémentation du jeu mythique Démineur. Il permet de jouer,
 ⚡ Gestion en temps réel des interactions
 
 ### Pourquoi cette architecture ? 
-Sécurité : La grille est générée côté serveur
-Extensibilité : Facile d'ajouter des fonctionnalités
-Robustesse : Mode offline si le serveur plante
-Clean Code : Architecture client-serveur lisible
+- Sécurité : La grille est générée côté serveur
+- Extensibilité : Facile d'ajouter des fonctionnalités
+- Robustesse : Mode offline si le serveur plante
+- Clean Code : Architecture client-serveur lisible
 
 
 ## Autrice
