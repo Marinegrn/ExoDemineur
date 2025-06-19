@@ -17,19 +17,19 @@ Ce projet est une implémentation du jeu mythique Démineur. Il permet de jouer,
 
 ### Back-Eend
 
-#### Python x Flask
-🗄️ Gestion de l'état du jeu côté serveur
-🎲 Génération sécurisée des mines
-🔒 Validation des mouvements
-📊 Historique des parties (pour une potentielle extension)
+#### Python x framework Flask
+- 🗄️ Gestion de l'état du jeu côté serveur
+- 🎲 Génération sécurisée des mines
+- 🔒 Validation des mouvements
+- 📊 Historique des parties (pour une potentielle extension)
 
 ### Front-End
 
 #### JavaScript
-🎨 Interface utilisateur.ice et animations
-🌐 Communication avec Flask via API
-🔄 Mode fallback si Flask n'est pas disponible
-⚡ Gestion en temps réel des interactions
+- 🎨 Interface utilisateur.ice et animations
+- 🌐 Communication avec Flask via API
+- 🔄 Mode fallback si Flask n'est pas disponible
+- ⚡ Gestion en temps réel des interactions
 
 ### Pourquoi cette architecture ? 
 - Sécurité : La grille est générée côté serveur
