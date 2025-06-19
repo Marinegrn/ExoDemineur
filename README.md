@@ -15,7 +15,7 @@ Ce projet est une implémentation du jeu mythique Démineur. Il permet de jouer,
 
 ## Stack
 
-### Back-Eend
+### Back-End
 
 #### Python x framework Flask
 - 🗄️ Gestion de l'état du jeu côté serveur
