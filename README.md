@@ -40,5 +40,5 @@ Ce projet est une implémentation du jeu mythique Démineur. Il permet de jouer,
 
 ## Autrice
 
-- Marine GAREIN | Apprenante Ada Tech School | Promotion France Spence
+- Marine GAREIN | Apprenante Ada Tech School | Promotion Frances Spence
 
