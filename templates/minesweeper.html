@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../static/style.css" rel="stylesheet">
+    <title>Démineur Moderne</title>
+</head>
+
+<body>
+    
+    <div class="game-container">
+        <h1>💣 Démineur </h1>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="rows">Lignes</label>
+                <input type="number" id="rows" value="10" min="5" max="20">
+            </div>
+            <div class="control-group">
+                <label for="cols">Colonnes</label>
+                <input type="number" id="cols" value="10" min="5" max="20">
+            </div>
+            <div class="control-group">
+                <label for="mines">Mines</label>
+                <input type="number" id="mines" value="15" min="1" max="50">
+            </div>
+            <button onclick="startNewGame()">🎮 Nouvelle Partie</button>
+        </div>
+
+        <div class="game-info" id="gameInfo" style="display: none;">
+            <div class="info-item">
+                <span class="info-label">Mines</span>
+                <span class="info-value" id="mineCount">15</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Temps</span>
+                <span class="info-value" id="timer">00:00</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Drapeaux</span>
+                <span class="info-value" id="flagCount">0</span>
+            </div>
+        </div>
+
+        <div id="gameGrid" class="game-grid"></div>
+
+        <div id="gameStatus" class="game-status playing">
+            Cliquez sur "Nouvelle Partie" pour commencer !
+        </div>
+
+        <div class="instructions">
+            <h3>🎯 Comment jouer :</h3>
+            <ul>
+                <li>Clic gauche : Révéler une case</li>
+                <li>Clic droit : Placer/enlever un drapeau</li>
+                <li>Évitez les mines et révélez toutes les cases sûres</li>
+                <li>Les chiffres indiquent le nombre de mines adjacentes</li>
+            </ul>
+        </div>
+    </div>
+    <script src="../static/script.js"></script>
+
+</body>
+</html>
